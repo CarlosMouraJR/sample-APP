@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.4.1'
 gem 'rails', '~> 5.2.1', '>= 5.2.1.1'
 gem 'bcrypt',         '3.1.12'
+gem 'gravatar_image_tag'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
